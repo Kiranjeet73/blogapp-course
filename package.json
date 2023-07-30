@@ -4,18 +4,26 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build & next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^5.0.4",
     "autoprefixer": "10.4.14",
+    "aws-amplify": "^5.3.4",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
+    "momento": "^0.2.0",
     "next": "13.4.9",
     "postcss": "8.4.25",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2"
+    "react-markdown": "^8.0.7",
+    "react-router-dom": "^6.14.1",
+    "react-simplemde-editor": "^5.2.0",
+    "tailwindcss": "3.3.2",
+    "trace": "^3.1.1",
+    "uuid": "^9.0.0"
   }
 }
