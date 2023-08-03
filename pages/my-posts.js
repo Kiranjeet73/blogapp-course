@@ -35,8 +35,10 @@ async function fetchPosts(){
          )
          setPosts(postWithImages)
    
-   // setPosts(postData.data.postsbyUsername.items)
-    }
+    //setPosts(postData.data.postsbyUsername.items)
+    
+          }
+
 
 async function deletePost(id){
     await API.graphql({
