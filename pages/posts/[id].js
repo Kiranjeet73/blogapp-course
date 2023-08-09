@@ -125,6 +125,7 @@ export async function getStaticPaths(){
     }
 }
 
+
 export async function getStaticProps({params}){
     const {id} = params;
     const postData = await API.graphql({
@@ -135,6 +136,8 @@ export async function getStaticProps({params}){
         props:{
             post: postData.data.getPost
         },
+       
         revalidate: 1
     }
+    
 }

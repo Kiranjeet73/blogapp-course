@@ -92,7 +92,7 @@ if(coverImage && localImage){
             <h1 className="text-3xl font-semibold tracking-wide mt-6 mb-2">Edit Post</h1>
             {
                 coverImage && (
-                    <img className="mt-4" src={localImage? localImage: coverImage}/>
+                    <img className="mt-4" src={localImage? localImage: coverImage} alt="coverimage"/>
                 )
             }
             <input
