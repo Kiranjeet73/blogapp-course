@@ -40,7 +40,7 @@ useEffect(() =>{
             setCoverImage(imageKay);
         }
     }
-},[])
+},[post.coverImage])
 
 
 
